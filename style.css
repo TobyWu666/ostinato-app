@@ -1,0 +1,16 @@
+:root { --paper:#FAF8F4; --ink:#2A2926; --ink2:#75716A; --hair:rgba(42,41,38,.1); --accent:#3E6A6C; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --paper:#1A1918; --ink:#ECE7DF; --ink2:#A39E95; --hair:rgba(236,231,223,.12); --accent:#8DB5B1; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font: 17px/1.65 -apple-system, "PingFang TC", "Helvetica Neue", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 64px 20px 96px; }
+h1 { font: 600 34px/1.2 "New York", ui-serif, Georgia, serif; margin: 0 0 8px; }
+h1.brand { font-size: 44px; }
+h2 { font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin: 48px 0 12px; }
+.eyebrow, .meta, .footer { color: var(--ink2); font-size: 14px; }
+.lede { color: var(--ink2); font-size: 19px; }
+a { color: var(--accent); }
+hr { border: 0; border-top: 1px solid var(--hair); margin: 72px 0; }
+dt { font-weight: 600; margin-top: 16px; }
+dd { margin: 4px 0 0; color: var(--ink2); }
+ul { padding-left: 1.2em; }
+.footer { margin-top: 64px; border-top: 1px solid var(--hair); padding-top: 16px; }
